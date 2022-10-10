@@ -73,8 +73,8 @@ class DemoNavbar extends React.Component {
           >
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
-                
-               <p>BeChange</p>
+
+                <p>BeChange</p>
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -114,8 +114,7 @@ class DemoNavbar extends React.Component {
                       <div className="dropdown-menu-inner">
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/overview?ref=adsr-navbar"
-                          target="_blank"
+                          href="#ayudar"
                         >
                           <div className="icon icon-shape bg-gradient-primary rounded-circle text-white">
                             <i className="ni ni-spaceship" />
@@ -131,18 +130,18 @@ class DemoNavbar extends React.Component {
                         </Media>
                         <Media
                           className="d-flex align-items-center"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/colors?ref=adsr-navbar"
-                          target="_blank"
+                          href="#nosotros"
                         >
                           <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                          <i className="ni ni-chat-round"></i>
+                            <i className="ni ni-chat-round"></i>
                           </div>
                           <Media body className="ml-3">
                             <h6 className="heading text-primary mb-md-1">
                               Quienes somos
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              Chamuyin por aca
+                              BeChange se creo con el objetivo de ayudar a las organizacion en el proceso de la realización
+                              de sus camapañas de donaciones.
                             </p>
                           </Media>
                         </Media>
@@ -155,12 +154,26 @@ class DemoNavbar extends React.Component {
                       <span className="nav-link-inner--text">Campañas</span>
                     </DropdownToggle>
                     <DropdownMenu>
-                      <DropdownItem to="/landing-page" tag={Link}>
-                        Landing
-                      </DropdownItem>
-                      <DropdownItem to="/profile-page" tag={Link}>
-                        Profile
-                      </DropdownItem>
+                      <Media
+                        className="d-flex align-items-center"
+                        href="#como_lo_hacemos"
+                      >
+                        <Media body className="ml-3">
+                          <h6 className="text-black mt-2">
+                            ¿Como lo hacemos?
+                          </h6>
+                        </Media>
+                      </Media>
+                      <Media
+                        className="d-flex align-items-center"
+                        href="#organizaciones"
+                      >
+                        <Media body className="ml-3">
+                          <h6 className="text-black mt-2">
+                            Fundaciones
+                          </h6>
+                        </Media>
+                      </Media>
                     </DropdownMenu>
                   </UncontrolledDropdown>
                 </Nav>

@@ -50,7 +50,7 @@ class Landing extends React.Component {
         <main ref="main">
           <div className="position-relative">
             {/* shape Hero */}
-            <section className="section section-lg section-shaped pb-250">
+            <section className="section section-lg section-shaped pb-250" name="principio">
               <div className="shape shape-style-1 shape-default">
                 <span />
                 <span />
@@ -77,7 +77,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="success"
-                          href="http://localhost:3000/landing-page"
+                          href="#ayudar"
                         >
                           <i className="ni ni-favourite-28" />
                           <span className="btn-inner--text">Donar</span>
@@ -88,7 +88,7 @@ class Landing extends React.Component {
                           href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
                         >
                           <span className="btn-inner--icon mr-1">
-                          <i class="fa fa-truck" aria-hidden="true"></i>
+                            <i class="fa fa-truck" aria-hidden="true"></i>
                           </span>
                           <span className="btn-inner--text">
                             Campañas
@@ -97,12 +97,12 @@ class Landing extends React.Component {
                       </div>
                     </Col>
                     <Col className="order-md-2" md="6">
-                  <img
-                    alt="..."
-                    className="img-fluid ml-4"
-                    src={require("assets/img/theme/carro.png")}
-                  />
-                </Col>
+                      <img
+                        alt="..."
+                        className="img-fluid ml-4"
+                        src={require("assets/img/theme/carro.png")}
+                      />
+                    </Col>
                   </Row>
                 </div>
               </Container>
@@ -156,7 +156,7 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                          <i class="fa fa-eye" aria-hidden="true"></i>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
                           </div>
                           <h6 className="text-success text-uppercase">
                             Cuales son las necesidades
@@ -179,7 +179,7 @@ class Landing extends React.Component {
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
-                          <i class="fa fa-truck" aria-hidden="true"></i>
+                            <i class="fa fa-truck" aria-hidden="true"></i>
                           </div>
                           <h6 className="text-warning text-uppercase">
                             Donaciones transparentes
@@ -188,7 +188,7 @@ class Landing extends React.Component {
                             El proceso de donación se va a persitir en la block chain en todo el recorrido , asi logramos mas transparencia y sepas donde estan los productos que donaste.
                           </p>
                           <div>
-                           
+
                           </div>
                           <Button
                             className="mt-4"
@@ -207,7 +207,9 @@ class Landing extends React.Component {
             </Container>
           </section>
 
-          <section className="section section-lg">
+
+
+          <section className="section section-lg" id="ayudar">
             <Container>
               <Row className="justify-content-center text-center mb-sm">
                 <Col lg="8">
@@ -283,7 +285,7 @@ class Landing extends React.Component {
             </Container>
           </section>
 
-          <section className="section section-lg">
+          <section className="section section-lg" id="como_lo_hacemos">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
@@ -307,7 +309,7 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                              
+
                               <i class="fa fa-lock" aria-hidden="true"></i>
                             </Badge>
                           </div>
@@ -325,7 +327,7 @@ class Landing extends React.Component {
                               className="badge-circle mr-3"
                               color="success"
                             >
-                             <i class="fa fa-cubes" aria-hidden="true"></i>
+                              <i class="fa fa-cubes" aria-hidden="true"></i>
                             </Badge>
                           </div>
                           <div>
@@ -356,7 +358,73 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg bg-gradient-default">
+
+          <section className="section section-lg" id="como_lo_hacemos">
+            <Container>
+              <Row className="row-grid align-items-center">
+                <Col className="order-md-1" md="12">
+                  <div className="pr-md-10">
+                    <h3>Contamos con los perfiles</h3>
+                    <p>
+                      Nuestra plataforma nuclea a perfiles de : <strong>Vendedor, Organizacion </strong> y <strong>Donante</strong>. La cual te permitir realizar distitnas funciones y actividades mientras
+                      navegas dentro de BeChange.
+                    </p>
+                    <ul className="list-unstyled mt-5">
+                    <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="primary"
+                            >
+                              <i class="ni ni-pin-3" aria-hidden="true"></i>
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0"> Fundación <span className="text-muted">: Quien se encargara de crear sus campañas y check list de productos necesarios.</span></h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="primary"
+                            >
+                              <i class="ni ni-box-2"></i>
+                            </Badge>
+                          </div>
+                          <div>
+                          <h6 className="mb-0"> Donante <span className="text-muted">: Quien va a comprar los productos y elegir a que campaña ayudar.</span></h6>
+                          </div>
+                        </div>
+                      </li>
+                      <li className="py-2">
+                        <div className="d-flex align-items-center">
+                          <div>
+                            <Badge
+                              className="badge-circle mr-3"
+                              color="primary"
+                            >
+
+                            <i class="ni ni-shop"></i>
+                            </Badge>
+                          </div>
+                          <div>
+                            <h6 className="mb-0">
+                             Vendedor <span className="text-muted">: El cual va a poder ofrecer su productos en nuestra aplicación</span></h6>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </Row>
+            </Container>
+          </section>
+
+          <section className="section section-lg bg-gradient-default" id="nosotros">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col md="6">
@@ -370,7 +438,7 @@ class Landing extends React.Component {
                 <Col md="6">
                   <div className="pl-md-5 text-white">
                     <div className="icon icon-lg icon-shape icon-shape-info shadow rounded-circle mb-5 text-white">
-                    <i class="fa fa-info" aria-hidden="true"></i>
+                      <i class="fa fa-info" aria-hidden="true"></i>
                     </div>
                     <h3 className="text-white">Nosotros somos ... </h3>
                     <p className="lead">
@@ -379,14 +447,14 @@ class Landing extends React.Component {
                     </p>
                     <p>
                       Nosotros le brindamos toda la plataforma para que puedan llevar de la forma mas transparente
-                      y segura . 
+                      y segura .
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                     Se parte de esto
+                      Se parte de esto
                     </a>
                   </div>
                 </Col>
@@ -409,8 +477,8 @@ class Landing extends React.Component {
             </div>
           </section>
 
-          
-          <section className="section section-lg">
+
+          <section className="section section-lg" id="organizaciones">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
