@@ -76,7 +76,7 @@ class Landing extends React.Component {
                       <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
-                          color="success"
+                          color="warning"
                           href="#ayudar"
                         >
                           <i className="ni ni-favourite-28" />
@@ -364,7 +364,7 @@ class Landing extends React.Component {
               <Row className="row-grid align-items-center">
                 <Col className="order-md-1" md="12">
                   <div className="pr-md-10">
-                    <h3>Contamos con los perfiles</h3>
+                    <h3>Sumate como</h3>
                     <p>
                       Nuestra plataforma nuclea a perfiles de : <strong>Vendedor, Organizacion </strong> y <strong>Donante</strong>. La cual te permitir realizar distitnas funciones y actividades mientras
                       navegas dentro de BeChange.
@@ -482,7 +482,7 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">Algunas de las fundaciones son</h2>
+                  <h2 className="display-3">Confian en nosotros</h2>
                 </Col>
               </Row>
               <Row>

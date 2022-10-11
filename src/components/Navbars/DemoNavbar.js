@@ -21,10 +21,8 @@ import { Link } from "react-router-dom";
 import Headroom from "headroom.js";
 // reactstrap components
 import {
-  Button,
   UncontrolledCollapse,
   DropdownMenu,
-  DropdownItem,
   DropdownToggle,
   UncontrolledDropdown,
   Media,
@@ -74,7 +72,11 @@ class DemoNavbar extends React.Component {
             <Container>
               <NavbarBrand className="mr-lg-5" to="/" tag={Link}>
 
-                <p>BeChange</p>
+              <img
+                          alt="..."
+                          src={require("assets/img/brand/BeChange-1.png")}
+                          style={{height:50}}
+                        />
               </NavbarBrand>
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
@@ -86,24 +88,6 @@ class DemoNavbar extends React.Component {
                 onExiting={this.onExiting}
                 onExited={this.onExited}
               >
-                <div className="navbar-collapse-header">
-                  <Row>
-                    <Col className="collapse-brand" xs="6">
-                      <Link to="/">
-                        <img
-                          alt="..."
-                          src={require("assets/img/brand/argon-react.png")}
-                        />
-                      </Link>
-                    </Col>
-                    <Col className="collapse-close" xs="6">
-                      <button className="navbar-toggler" id="navbar_global">
-                        <span />
-                        <span />
-                      </button>
-                    </Col>
-                  </Row>
-                </div>
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
