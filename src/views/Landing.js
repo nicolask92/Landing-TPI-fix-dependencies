@@ -31,6 +31,7 @@ import {
   CardSubtitle
 } from "reactstrap";
 
+
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import CardsFooter from "components/Footers/CardsFooter.js";
@@ -144,7 +145,7 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
+                            href="#"
                             onClick={(e) => e.preventDefault()}
                           >
                             Saber mas
@@ -167,7 +168,7 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
+                            href="#"
                             onClick={(e) => e.preventDefault()}
                           >
                             Saber mas
@@ -193,7 +194,7 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
+                            href="#"
                             onClick={(e) => e.preventDefault()}
                           >
                             Saber mas
@@ -231,7 +232,7 @@ class Landing extends React.Component {
                       <CardTitle>Leche Entera Ilolay</CardTitle>
                       <CardSubtitle>$100</CardSubtitle>
                       <p>Compra minima : 10 u</p>
-                      <Button className="w-100" color="warning"><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning" onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -246,7 +247,7 @@ class Landing extends React.Component {
                       <CardTitle>Fideo Spaghetti Knorr</CardTitle>
                       <CardSubtitle>$200</CardSubtitle>
                       <p>Compra minima : 15 u</p>
-                      <Button className="w-100" color="warning"><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning"  onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -261,7 +262,7 @@ class Landing extends React.Component {
                       <CardTitle>Arroz Lucchetti</CardTitle>
                       <CardSubtitle>$80</CardSubtitle>
                       <p>Compra minima : 20 u</p>
-                      <Button className="w-100" color="warning"><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning"  onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -277,7 +278,7 @@ class Landing extends React.Component {
                       <CardTitle>Harina Morixe</CardTitle>
                       <CardSubtitle>$150</CardSubtitle>
                       <p>Compra minima : 5 u</p>
-                      <Button className="w-100" color="warning"><i class="ni ni-cart"></i></Button>
+                      <Button className="w-100" color="warning"  onClick={event =>  window.location.href='https://localhost:44355/'}><i class="ni ni-cart"></i></Button>
                     </CardBody>
                   </Card>
                 </Col>
@@ -502,7 +503,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="warning"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
@@ -510,7 +511,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
@@ -518,7 +519,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i class="fa fa-globe" aria-hidden="true"></i>
@@ -543,7 +544,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="primary"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
@@ -551,7 +552,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
@@ -559,7 +560,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i class="fa fa-globe" aria-hidden="true"></i>
@@ -584,7 +585,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="info"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
@@ -592,7 +593,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
@@ -600,7 +601,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i class="fa fa-globe" aria-hidden="true"></i>
@@ -625,7 +626,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle"
                           color="success"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
@@ -633,7 +634,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
@@ -641,7 +642,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
-                          href="#pablo"
+                          href="#"
                           onClick={(e) => e.preventDefault()}
                         >
                           <i class="fa fa-globe" aria-hidden="true"></i>
