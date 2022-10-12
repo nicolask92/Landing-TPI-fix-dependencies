@@ -85,7 +85,7 @@ class Landing extends React.Component {
                         <Button
                           className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                           color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
+                          href="#organizaciones"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i class="fa fa-truck" aria-hidden="true"></i>
@@ -213,7 +213,7 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-sm">
                 <Col lg="8">
-                  <h2 className="display-3">Productos</h2>
+                  <h2 className="display-3">Podes ayudar con estos productos</h2>
                   <p className="lead text-muted">
                   </p>
                 </Col>
@@ -291,15 +291,15 @@ class Landing extends React.Component {
                 <Col className="order-md-2" md="6">
                   <img
                     alt="..."
-                    className="img-fluid floating"
-                    src={require("assets/img/theme/camion.png")}
+                    className="img-fluid"
+                    src={require("assets/img/theme/blockchain2.jpg")}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
-                    <h3>Más Transparencia ...</h3>
+                    <h3>Más Transparencia</h3>
                     <p>
-                      Todos los procesos como en la compra como en el envío del producto van a estar persistidos en la blockchain para que puedan consultar sobre tu producto en cualquier momento y al instante.
+                      Todos los procesos como en la compra como en el envío del producto van a estar persistidos en la blockchain para que puedas consultar sobre tu producto en cualquier momento y al instante.
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -366,7 +366,7 @@ class Landing extends React.Component {
                   <div className="pr-md-10">
                     <h3>Sumate como</h3>
                     <p>
-                      Nuestra plataforma nuclea a perfiles de : <strong>Vendedor, Organizacion </strong> y <strong>Donante</strong>. La cual te permitir realizar distitnas funciones y actividades mientras
+                      Nuestra plataforma cuenta con los perfiles de : <strong>Vendedor, Organizacion </strong> y <strong>Donante</strong>. La cual te permitir realizar distitnas funciones y actividades mientras
                       navegas dentro de BeChange.
                     </p>
                     <ul className="list-unstyled mt-5">
@@ -381,7 +381,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0"> Fundación <span className="text-muted">: Quien se encargara de crear sus campañas y check list de productos necesarios.</span></h6>
+                            <h6 className="mb-0"> Fundación <span className="text-muted">: Quien se encargara de crear sus campañas y necesidades.</span></h6>
                           </div>
                         </div>
                       </li>
@@ -440,18 +440,18 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-info shadow rounded-circle mb-5 text-white">
                       <i class="fa fa-info" aria-hidden="true"></i>
                     </div>
-                    <h3 className="text-white">Nosotros somos ... </h3>
+                    <h3 className="text-white">Nosotros somos</h3>
                     <p className="lead">
                       BeChange se creo con el objetivo de ayudar a las organizacion en el proceso de la realización
                       de sus camapañas de donaciones.
                     </p>
                     <p>
-                      Nosotros le brindamos toda la plataforma para que puedan llevar de la forma mas transparente
+                      Brindamos toda la plataforma para que puedan llevar de la forma mas transparente
                       y segura .
                     </p>
                     <a
                       className="font-weight-bold text-warning mt-5"
-                      href="#pablo"
+                      href="#"
                       onClick={(e) => e.preventDefault()}
                     >
                       Se parte de esto

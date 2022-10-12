@@ -144,7 +144,7 @@ class DemoNavbar extends React.Component {
                       >
                         <Media body className="ml-3">
                           <h6 className="text-black mt-2">
-                            ¿Como lo hacemos?
+                            Transparencia
                           </h6>
                         </Media>
                       </Media>
@@ -165,7 +165,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.facebook.com/creativetim"
+                      href="#"
                       id="tooltip333589074"
                       target="_blank"
                     >
@@ -181,7 +181,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://www.instagram.com/creativetimofficial"
+                      href="#"
                       id="tooltip356693867"
                       target="_blank"
                     >
@@ -197,7 +197,7 @@ class DemoNavbar extends React.Component {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href="https://twitter.com/creativetim"
+                      href="#"
                       id="tooltip184698705"
                       target="_blank"
                     >
