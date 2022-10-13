@@ -88,7 +88,7 @@ class CardsFooter extends React.Component {
                   </span>
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
-                  Miranos
+                  Míranos
                 </UncontrolledTooltip>
               </Col>
             </Row>

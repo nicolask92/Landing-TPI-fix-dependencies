@@ -72,7 +72,7 @@ class Landing extends React.Component {
                         <span>y de la forma mas <strong>transparente</strong></span>
                       </h1>
                       <p className="lead text-white">
-                        Nos centramos en ayudar en la gestion de campañas de donacion , y así ayudar a los que mas lo necesitan
+                        Nos centramos en ayudar en la gestión de campañas de donación , y así ayudar a los que mas lo necesitan
                       </p>
                       <div className="btn-wrapper">
                         <Button
@@ -140,7 +140,7 @@ class Landing extends React.Component {
                             Ahora donar es mas fácil
                           </h6>
                           <p className="description mt-3">
-                            Ahora el proceso de donacion va a ser mucho mas facil , dentro de nuestra aplicación vas a poder elegir los productos a donar
+                            Ahora el proceso de donación va a ser mucho mas fácil , dentro de nuestra aplicación vas a poder elegir los productos a donar
                           </p>
                           <Button
                             className="mt-4"
@@ -186,7 +186,7 @@ class Landing extends React.Component {
                             Donaciones transparentes
                           </h6>
                           <p className="description mt-3">
-                            El proceso de donación se va a persitir en la block chain en todo el recorrido , asi logramos mas transparencia y sepas donde estan los productos que donaste.
+                            El proceso de donación se va a persistir en la block chain en todo el recorrido , asi logramos mas transparencia y sepas donde están los productos que donaste.
                           </p>
                           <div>
 
@@ -316,7 +316,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Procesos seguritizados
+                              Procesos securitizados
                             </h6>
                           </div>
                         </div>
@@ -367,7 +367,7 @@ class Landing extends React.Component {
                   <div className="pr-md-10">
                     <h3>Sumate como</h3>
                     <p>
-                      Nuestra plataforma cuenta con los perfiles de : <strong>Vendedor, Organizacion </strong> y <strong>Donante</strong>. La cual te permitir realizar distitnas funciones y actividades mientras
+                      Nuestra plataforma cuenta con los perfiles de : <strong>Vendedor, Organización </strong> y <strong>Donante</strong>. La cual te permitir realizar distintas funciones y actividades mientras
                       navegas dentro de BeChange.
                     </p>
                     <ul className="list-unstyled mt-5">
@@ -443,8 +443,8 @@ class Landing extends React.Component {
                     </div>
                     <h3 className="text-white">Nosotros somos</h3>
                     <p className="lead">
-                      BeChange se creo con el objetivo de ayudar a las organizacion en el proceso de la realización
-                      de sus camapañas de donaciones.
+                      BeChange se creo con el objetivo de ayudar a las organización en el proceso de la realización
+                      de sus campañas de donaciones.
                     </p>
                     <p>
                       Brindamos toda la plataforma para que puedan llevar de la forma mas transparente
@@ -483,7 +483,7 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">Confian en nosotros</h2>
+                  <h2 className="display-3">Confían en nosotros</h2>
                 </Col>
               </Row>
               <Row>
@@ -497,7 +497,7 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Fundacion SÍ</span>
+                        <span className="d-block mb-1">Fundación SÍ</span>
                       </h5>
                       <div className="mt-3">
                         <Button

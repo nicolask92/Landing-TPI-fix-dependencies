@@ -92,7 +92,7 @@ class DemoNavbar extends React.Component {
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Nostros</span>
+                      <span className="nav-link-inner--text">Nosotros</span>
                     </DropdownToggle>
                     <DropdownMenu className="dropdown-menu-xl">
                       <div className="dropdown-menu-inner">
@@ -124,8 +124,8 @@ class DemoNavbar extends React.Component {
                               Quienes somos
                             </h6>
                             <p className="description d-none d-md-inline-block mb-0">
-                              BeChange se creo con el objetivo de ayudar a las organizacion en el proceso de la realización
-                              de sus camapañas de donaciones.
+                              BeChange se creo con el objetivo de ayudar a las organización en el proceso de la realización
+                              de sus campañas de donaciones.
                             </p>
                           </Media>
                         </Media>
